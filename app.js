@@ -24,5 +24,5 @@ app.get('/heroes/bio/:id/:ok?',
 
 // Ruta... ¿Pára qué sirve esto?
 app.get('*', (req, res) => {
-	res.status(404).send('404 not found. <br> ¡Houston, poseemos problemas!');
+	res.status(404).send('404 not found. <br> ¡Houston, tenemos problemas!');
 }))
